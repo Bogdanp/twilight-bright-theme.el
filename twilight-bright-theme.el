@@ -148,6 +148,10 @@
    `(org-hide ((t (:foreground ,gray-2 :background ,gray-1bg))))
    `(org-link ((t (:foreground ,blue-1 :background ,blue-1bg))))
    `(org-todo ((t (:foreground ,red-1 :background ,red-1bg))))
+
+   ;; web-mode
+   `(web-mode-current-element-highlight-face ((t (:background ,gray-1bg))))
+   `(web-mode-symbol-face ((t (:foreground ,red-1))))
    )
 
   (custom-theme-set-variables
