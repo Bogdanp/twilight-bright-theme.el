@@ -152,23 +152,7 @@
    ;; web-mode
    `(web-mode-current-element-highlight-face ((t (:background ,gray-1bg))))
    `(web-mode-symbol-face ((t (:foreground ,red-1))))
-   )
-
-  (custom-theme-set-variables
-   'twilight-bright
-
-   ;; ;; Fill Column Indicator mode
-   `(fci-rule-color ,gray-2)
-   `(fci-rule-character-color ,gray-2)
-
-   `(ansi-color-names-vector
-     ;; black, red, green, yellow, blue, magenta, cyan, white
-     [,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])
-   `(ansi-term-color-vector
-     ;; black, red, green, yellow, blue, magenta, cyan, white
-     [,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])
-   )
-  )
+   ))
 
 ;;;###autoload
 (when load-file-name
