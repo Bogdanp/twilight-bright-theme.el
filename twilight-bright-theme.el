@@ -112,6 +112,11 @@
    `(ido-only-match ((t (:foreground ,green-1 :background ,green-1bg))))
    `(ido-subdir ((t (:foreground ,purple-1 :background ,purple-1bg))))
 
+   ;; popup-menu
+   `(popup-menu-face ((t (:foreground ,foreground :background ,yellow-1bg))))
+   `(popup-menu-mouse-face ((t (:foreground ,blue-1 :background ,blue-1bg))))
+   `(popup-menu-selection-face ((t (:foreground ,blue-1 :background ,blue-1bg))))
+
    ;; whitespace-mode
    `(whitespace-empty ((t (:foreground ,yellow-1bg :background ,yellow-1))))
    `(whitespace-hspace ((t (:foreground ,gray-2))))
